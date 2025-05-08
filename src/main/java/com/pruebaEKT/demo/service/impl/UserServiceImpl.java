@@ -4,6 +4,7 @@ import com.pruebaEKT.demo.service.UserService;
 import com.pruebaEKT.demo.model.User;
 import com.pruebaEKT.demo.repository.UserRepository;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -53,4 +54,5 @@ public class UserServiceImpl implements UserService {
         }
         return false;
     }
+
 }
